@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <path
+        d="M50 5 L90 22 L85 65 L50 95 L15 65 L10 22 Z"
+        fill="#D4AF57"
+    />
+
+    <path
+        d="M50 12 L83 26 L79 62 L50 86 L21 62 L17 26 Z"
+        fill="#21132F"
+    />
+
+    <text
+        x="50"
+        y="68"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="58"
+        font-weight="bold"
+        fill="#D4AF57"
+    >R</text>
+</svg>

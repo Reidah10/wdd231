@@ -1,0 +1,217 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #21132F;
+    color: #F4EAD5;
+    padding: 1rem;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #D4AF57;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.site-brand img {
+    width: 45px;
+    height: 45px;
+}
+
+/* Hamburger */
+#menu-button {
+    background: none;
+    border: none;
+    color: #D4AF57;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+/* Mobile Navigation */
+.navigation {
+    display: none;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.navigation.open {
+    display: flex;
+}
+
+.navigation a {
+    color: #F4EAD5;
+    text-decoration: none;
+    padding: 0.8rem;
+    border-top: 1px solid #39234D;
+}
+
+.navigation a:hover, .navigation a.active {
+    color: #D4AF57;
+}
+
+/* Main */
+
+main {
+    padding: 1rem;
+    color: #21132F;
+}
+
+h1 {
+    color: #21132F;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    background-color: #21132F;
+    color: #D4AF57;
+    text-align: center;
+    padding: 0.6rem;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about-me, .student-photo {
+    background-color: #F4EAD5;
+    border: 1px solid #D4AF57;
+}
+
+.about-me p {
+    padding: 1rem;
+    line-height: 1.6rem;
+}
+
+.student-photo img {
+    display: block;
+    width: 150px;
+    
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 6px;
+}
+
+.certificate {
+    border: 1px solid #D4AF57;
+    background-color: #F4EAD5;
+}
+
+.course-filters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    padding: 0.75rem;
+}
+
+.course-filters button {
+    padding: 0.6rem;
+    background-color: #39234D;
+    color: #F4EAD5;
+    border: 1px solid #D4AF57;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-filters button:hover, .course-filters button.active {
+    background-color: #D4AF57;
+    color: #21132F;
+}
+
+.course-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 0.75rem;
+}
+
+.credit-total {
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+/* Course Cards */
+
+.course-card {
+    background-color: #39234D;
+    color: #F4EAD5;
+    border: 1px solid #D4AF57;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.course-card h3 {
+    color: #D4AF57;
+    margin-top: 0;
+}
+
+.course-card.completed {
+    background-color: #D4AF57;
+    color: #21132F;
+}
+
+.course-card.completed h3 {
+    color: #21132F;
+}
+
+/* Footer */
+
+footer {
+    background-color: #21132F;
+    color: #F4EAD5;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+    border-top: 3px solid #D4AF57;
+}
+
+footer p {
+    margin: 0.5rem;
+}
+
+#lastModified {
+    color: #D4AF57;
+    font-size: 0.85rem;
+}
+
+/* Social Media */
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: #D4AF57;
+    display: inline-flex;
+    transition: color 0.2s ease;
+}
+
+.social-links svg {
+    width: 30px;
+    height: 30px;
+}
+
+.social-links a:hover {
+    color: #F4EAD5;
+}
