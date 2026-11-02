@@ -1,0 +1,28 @@
+{
+    "familyName": "Richards",
+    "moveInDate": "2022-01-02",
+    "numberOfPeople": 4,
+    "visitedByBishopric": false,
+    "familyMembers": [
+        {
+            "name": "Jeremiah",
+            "gender": "Male",
+            "birthdate": "1978-06-24"
+        },
+        {
+            "name": "Sarah",
+            "gender": "Female",
+            "birthdate": "1982-03-30"
+        },
+        {
+            "name": "Jared",
+            "gender": "Male",
+            "birthdate": "2004-10-25"
+        },
+        {
+            "name": "Jane",
+            "gender": "Female",
+            "birthdate": "2006-10-27"
+        }
+    ]
+}
