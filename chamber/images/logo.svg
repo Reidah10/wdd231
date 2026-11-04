@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 190" role="img" aria-labelledby="title desc">
+  <title id="title">Utah Valley Chamber of Commerce</title>
+  <desc id="desc">Gold rising sun over purple mountain peaks, with the Chamber name in white and gold.</desc>
+  <g fill="none" stroke="#D6A84F" stroke-width="7" stroke-linecap="round">
+    <path d="M286 55 A74 74 0 0 1 434 55"/>
+    <path d="M34 91 H170 M550 91 H686"/>
+  </g>
+  <path fill="#D6A84F" d="M360 12a39 39 0 0 1 39 39h-78a39 39 0 0 1 39-39z"/>
+  <path fill="#FFFFFF" d="M170 104 255 35l57 46 48-62 53 62 52-44 85 67-113-36-24 19-53-52-52 52-42-32z"/>
+  <path fill="#D6A84F" d="m170 104 85-69 57 46 48-62 53 62 52-44 85 67-113-36-24 19-53-52-52 52-42-32-46 37z" opacity=".95"/>
+  <path fill="#241B35" d="m215 91 40-56 57 46 48-62 53 62 52-44 43 54-95-25-53-52-52 52-42-32z"/>
+  <text x="360" y="145" text-anchor="middle" fill="#FFFFFF" font-family="Montserrat, Arial, sans-serif" font-size="37" font-weight="700" letter-spacing="2">UTAH VALLEY</text>
+  <text x="360" y="174" text-anchor="middle" fill="#D6A84F" font-family="Montserrat, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="4">CHAMBER OF COMMERCE</text>
+</svg>

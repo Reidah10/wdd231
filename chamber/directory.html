@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the local goings on of Utah Valley with the Utah Valley Chamber of Commerce. Find business, community events, and more.">
+    <meta name="author" content="Reid Howard">
+    <title>Utah Valley Chamber of Commerce</title>
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Utah Valley Chamber of Commerce | Business Directory">
+    <meta property="og:description" content="Get in contact with local business and communities throughout Utah Valley.">
+    <meta property="og:image" content="https://reidah10.github.io/wdd231/chamber/images/og-image.png">
+    <meta property="og:url" content="https://reidah10.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=optional" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.svg" alt="Utah Valley Chamber of Commerce logo">
+                <span>Utah Valley Chamber of Commerce</span>
+            </a>
+
+            <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav id="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html" class="active">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Business Directory</h1>
+
+        <section class="directory-section">
+            <div class="directory-controls">
+                <button id="grid-view" class="view-button active" aria-label="Display businesses in grid view">
+                    Grid View
+                </button>
+
+                <button id="list-view" class="view-button" aria-label="Display businesses in list view">
+                    List View
+                </button>
+            </div>
+
+            <div id="members-container" class="grid-view">
+                <!-- Business listings here -->
+                <div class="member-card skeleton-card" aria-hidden="true"></div>
+                <div class="member-card skeleton-card" aria-hidden="true"></div>
+                <div class="member-card skeleton-card" aria-hidden="true"></div>
+                <div class="member-card skeleton-card" aria-hidden="true"></div>
+                <div class="member-card skeleton-card" aria-hidden="true"></div>
+                <div class="member-card skeleton-card" aria-hidden="true"></div>
+                <div class="member-card skeleton-card" aria-hidden="true"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h2>Utah Valley Chamber of Commerce</h2>
+                <p>Utah Valley, Utah</p>
+                <p>Email: info@utahvalleychamber.com</p>
+                <p>Phone: (801) 555-0100</p>
+            </div>
+
+            <div class="footer-social">
+                <h2>Connect With Us</h2>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor" d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1V10H7.7v3h2.7v8h3.1z"/>
+                        </svg>
+                    </a>
+
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor" d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.6.1.8-.3.8-.6v-2.1c-3.1.7-3.8-1.3-3.8-1.3-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.8 2.1 3.1 1.6.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.2-5.1-5.5 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1a10.3 10.3 0 0 1 5.5 0c2.1-1.4 3-1.1 3-1.1.6 1.5.2 2.6.1 2.9.7.8 1.1 1.8 1.1 3 0 4.3-2.6 5.2-5.1 5.5.4.3.8 1 .8 2v3c0 .3.2.7.8.6A11.1 11.1 0 0 0 12 .9z"/>
+                        </svg>
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor" d="M5.2 3a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4zM3.3 9h3.8v12H3.3zM9.4 9H13v1.6h.1c.5-.9 1.7-1.9 3.5-1.9 3.8 0 4.5 2.5 4.5 5.7V21h-3.8v-5.9c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1V21H9.4z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-info">
+                <p>&copy; <span id="current-year"></span> Utah Valley Chamber of Commerce</p>
+                <p>Reid Howard | WDD 231</p>
+                <p>Last Modified: <span id="last-modified"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</body>
+</html>

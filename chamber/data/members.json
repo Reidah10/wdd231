@@ -1,0 +1,59 @@
+
+[
+    {
+        "name": "Summit Peak Outdoors",
+        "address": "1250 University Avenue, Provo, UT 84601",
+        "phone": "(801) 555-0101",
+        "website": "https://summitpeak.example.com",
+        "image": "summit-peak.webp",
+        "membershipLevel": 3
+    },
+    {
+        "name": "Valley View Dental",
+        "address": "850 North State Street, Orem, UT 84057",
+        "phone": "(801) 555-0102",
+        "website": "https://valleyviewdental.example.com",
+        "image": "valley-dental.webp",
+        "membershipLevel": 2
+    },
+    {
+        "name": "Wasatch Home Builders",
+        "address": "450 West Center Street, Lehi, UT 84043",
+        "phone": "(801) 555-0103",
+        "website": "https://wasatchbuilders.example.com",
+        "image": "wasatch-builders.webp",
+        "membershipLevel": 3
+    },
+    {
+        "name": "Golden Spoon Cafe",
+        "address": "220 East Main Street, American Fork, UT 84003",
+        "phone": "(801) 555-0104",
+        "website": "https://goldenspooncafe.example.com",
+        "image": "golden-spoon.webp",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Timpanogos Financial Group",
+        "address": "975 South 500 East, Pleasant Grove, UT 84062",
+        "phone": "(801) 555-0105",
+        "website": "https://timpanogosfinancial.example.com",
+        "image": "timpanogos-financial.webp",
+        "membershipLevel": 2
+    },
+    {
+        "name": "Utah Valley Auto Care",
+        "address": "310 North 500 West, Spanish Fork, UT 84660",
+        "phone": "(801) 555-0106",
+        "website": "https://utahvalleyauto.example.com",
+        "image": "utahvalley-auto.webp",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Mountain West Fitness",
+        "address": "1600 South State Street, Orem, UT 84058",
+        "phone": "(801) 555-0107",
+        "website": "https://mountainwestfitness.example.com",
+        "image": "mountainwest-fitness.webp",
+        "membershipLevel": 3
+    }
+]
