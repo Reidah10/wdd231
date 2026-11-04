@@ -118,6 +118,7 @@ nav a {
 nav a:hover,
 nav a.active {
     color: var(--secondary-color);
+    background-color: transparent;
 }
 
 /* ====== Directory Controls ====== */
