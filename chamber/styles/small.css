@@ -325,7 +325,11 @@ footer p {
     right: 0;
     padding: 2rem 1.5rem; 
     color: var(--white); 
-    background: linear-gradient( transparent, rgba(36, 27, 53, .65) 25%, rgba(36, 27, 53, .95) ); 
+    background: linear-gradient(
+    rgba(36, 27, 53, .15),
+    rgba(36, 27, 53, .65) 25%,
+    rgba(36, 27, 53, .95)
+    );
 }
 
 .hero-content h2 {
