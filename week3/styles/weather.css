@@ -1,0 +1,58 @@
+
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #253858;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+/* Main content */
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+    font-size: 1.2rem;
+}
+
+figure {
+    margin: 1rem auto;
+}
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+figcaption {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #253858;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
