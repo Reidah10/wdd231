@@ -139,3 +139,110 @@ if (currentYear) {
 if (lastModified) {
     lastModified.textContent = document.lastModified;
 }
+
+
+// Timestamp
+
+const timestampField = document.querySelector("#timestamp");
+
+if (timestampField) {
+    timestampField.value = new Date().toISOString();
+}
+
+// Modals
+
+const membershipLinks = document.querySelectorAll(".membership-link");
+const closeButtons = document.querySelectorAll(".close-modal");
+
+membershipLinks.forEach((link) => {
+    link.addEventListener("click", (event) => {
+        event.preventDefault();
+
+        const modalId = link.dataset.modal;
+        const modal = document.querySelector(`#${modalId}`);
+
+        if (modal) {
+            modal.showModal();
+        }
+    });
+});
+
+closeButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        const modal = button.closest("dialog");
+
+        if (modal) {
+            modal.close();
+        }
+    });
+});
+
+
+// Membership Card Scroll Animation
+const membershipCards = document.querySelectorAll(".membership-card");
+
+if ("IntersectionObserver" in window) {
+    const cardObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.remove("is-pending");
+                entry.target.classList.add("is-visible");
+
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.15
+    });
+
+    membershipCards.forEach((card) => {
+        card.classList.add("is-pending");
+        cardObserver.observe(card);
+    });
+} else {
+    membershipCards.forEach((card) => {
+        card.classList.add("is-visible");
+    });
+}
+
+// Thank You
+const submissionDetails = document.querySelector("#submission-details");
+
+if (submissionDetails) {
+    const params = new URLSearchParams(window.location.search);
+
+    const timestamp = params.get("timestamp");
+    const submittedDate = timestamp ? new Date(timestamp) : null;
+
+    const formattedDate = submittedDate && !Number.isNaN(submittedDate.getTime())
+        ? submittedDate.toLocaleString()
+        : "Unavailable";
+
+    const membershipLevels = {
+        np: "NP Membership",
+        bronze: "Bronze Membership",
+        silver: "Silver Membership",
+        gold: "Gold Membership"
+    };
+
+    const details = [
+        ["First Name", params.get("first-name")],
+        ["Last Name", params.get("last-name")],
+        ["Email", params.get("email")],
+        ["Phone", params.get("phone")],
+        ["Business / Organization", params.get("organization")],
+        ["Membership Level", membershipLevels[params.get("membership")] || "Not provided"],
+        ["Date Submitted", formattedDate]
+    ];
+
+    details.forEach(([label, value]) => {
+        const paragraph = document.createElement("p");
+        const strong = document.createElement("strong");
+
+        strong.textContent = `${label}: `;
+        paragraph.appendChild(strong);
+        paragraph.appendChild(document.createTextNode(value || "Not provided"));
+
+        submissionDetails.appendChild(paragraph);
+    });
+}

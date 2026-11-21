@@ -116,6 +116,28 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+        /* ====== Join Page Desktop Layout ====== */
+
+    .join-container {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        align-items: start;
+    }
+
+    .membership-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+        /* ====== Thank You Page Desktop Layout ====== */
+
+    .thankyou-container {
+        margin: 3rem auto;
+        padding: 2.5rem;
+    }
+
+    .application-details {
+        padding: 2rem 2.5rem;
+    }
+
 }
 
 /* Extra Large Screens */
@@ -129,6 +151,12 @@
 
     .spotlights-container {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+        /* Join Page Extra-Wide Layout */
+
+    .join-container {
+        grid-template-columns: 1.1fr 1fr;
     }
 
 }
