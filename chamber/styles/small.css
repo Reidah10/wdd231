@@ -464,7 +464,7 @@ footer p {
     margin: 0 auto;
 }
 
-forecast-day p {
+.forecast-day p {
     margin: 0.25rem 0;
     font-size: 0.9rem;
 }
