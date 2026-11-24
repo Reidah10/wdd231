@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Bridal Veil Falls",
+    "address": "Provo Canyon, Provo, UT 84604",
+    "description": "Discover one of Utah Valley's most recognizable natural landmarks. This beautiful 607-foot waterfall is accessible by a scenic trail along the Provo River Parkway, with nearby picnic areas.",
+    "image": "bridal-veil-falls.webp",
+    "alt": "Bridal Veil Falls in Provo Canyon, Utah",
+    "url": "https://stateparks.utah.gov/parks/bridal-veil-falls/"
+  },
+  {
+    "name": "Timpanogos Cave National Monument",
+    "address": "2038 W Alpine Loop Road, American Fork, UT 84003",
+    "description": "Explore an underground world of spectacular limestone formations, winding passages, and beautiful cave chambers. Guided tours take visitors through three connected caves after a challenging hike up the mountainside.",
+    "image": "timpanogos-cave.webp",
+    "alt": "Timpanogos Cave Monument in American Fork, Utah",
+    "url": "https://www.nps.gov/tica/planyourvisit/index.htm"
+  },
+  {
+    "name": "Thanksgiving Point",
+    "address": "3003 N Thanksgiving Way, Lehi, UT 84043",
+    "description": "Experience one of Utah Valley's largest family destinations, featuring beautiful gardens, interactive museums, a butterfly biosphere, and educational attractions for visitors of all ages.",
+    "image": "thanksgiving-point.webp",
+    "alt": "Thanksgiving Point in Lehi, Utah",
+    "url": "https://thanksgivingpoint.org/"
+  },
+  {
+    "name": "Sri Sri Radha Krishna Temple",
+    "address": "311 W 8500 S, Spanish Fork, UT 84660",
+    "description": "Visit a unique temple inspired by traditional Indian architecture. Its colorful design, intricate details, landscaped grounds, and panoramic mountain views make it a distinctive destination in Utah Valley.",
+    "image": "krishna-temple.webp",
+    "alt": "Sri Sri Radha Krishna Temple in Spanish Fork, Utah",
+    "url": "https://www.krishnatemple.org/"
+  },
+  {
+    "name": "Utah Lake State Park",
+    "address": "4398 W Center Street, Provo, UT 84601",
+    "description": "Enjoy Utah Valley's largest lake and its surrounding mountain scenery. Visitors can experience boating, fishing, camping, and other outdoor recreational activities.",
+    "image": "utah-lake.webp",
+    "alt": "Utah Lake State Park in Provo, Utah",
+    "url": "https://stateparks.utah.gov/parks/utah-lake/"
+  },
+  {
+    "name": "Springville Museum of Art",
+    "address": "126 E 400 S, Springville, UT 84663",
+    "description": "Explore Utah's first visual arts museum, featuring an impressive collection of local artwork alongside American and international pieces. Rotating exhibitions provide something new to discover throughout the year.",
+    "image": "springville-museum.webp",
+    "alt": "Springville Museum of Art in Springville, Utah",
+    "url": "https://www.smofa.org/visit"
+  },
+  {
+    "name": "Provo Pioneer Village",
+    "address": "560 N 500 W, Provo, UT 84601",
+    "description": "Step back into Utah's pioneer history through a collection of historic buildings and artifacts. This outdoor historical attraction offers a glimpse into the lives and experiences of early settlers.",
+    "image": "pioneer-village.webp",
+    "alt": "Provo Pioneer Village in Provo, UT",
+    "url": "https://www.provo.gov/966/Pioneer-Museum-and-Village"
+  },
+  {
+    "name": "Roots of Knowledge",
+    "address": "800 W University Parkway, Orem, UT 84058",
+    "description": "Discover an extraordinary stained-glass installation at Utah Valley University. Thousands of pieces of glass come together to illustrate humanity's journey through history, science, culture, and discovery.",
+    "image": "roots-of-knowledge.webp",
+    "alt": "Roots of Knowledge at Utah Valley University",
+    "url": "https://www.uvu.edu/rootsofknowledge/visit/"
+  }
+]

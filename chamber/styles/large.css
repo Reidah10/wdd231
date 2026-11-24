@@ -138,6 +138,30 @@
         padding: 2rem 2.5rem;
     }
 
+        /* Discover */
+    #discover-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-areas:
+            "card-1 card-2"
+            "card-3 card-4"
+            "card-5 card-6"
+            "card-7 card-8";
+        gap: 1.5rem;
+    }
+
+    .discover-card {
+        height: 100%;
+    }
+
+    .discover-card img {
+        min-height: 220px;
+    }
+
+    .discover-card img:hover {
+        transform: scale(1.03);
+        transition: transform 0.3s ease;
+    }
+
 }
 
 /* Extra Large Screens */

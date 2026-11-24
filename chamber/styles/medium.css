@@ -1,0 +1,26 @@
+/* ====== Medium Screen Discover Styles ====== */
+
+@media screen and (min-width: 640px) {
+
+    #discover-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .discover-card {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+        grid-template-areas:
+            "image title"
+            "image address"
+            "image description"
+            "image link";
+        column-gap: 1.25rem;
+        row-gap: 0.5rem;
+        align-items: start;
+        padding: 1.25rem;
+    }
+
+    .discover-card img {
+        height: 100%;
+        min-height: 200px;
+    }
+}
